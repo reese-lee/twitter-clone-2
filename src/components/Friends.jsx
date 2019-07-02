@@ -22,24 +22,24 @@ const useStyles = makeStyles({
     marginBottom: 12,
   },
   button: {
-      boxShadow: '4px 4px 3px #aaaaaa',
+    boxShadow: '4px 4px 3px #aaaaaa',
 
   }
 });
 
 export default function SimpleCard() {
   const classes = useStyles();
-  const bull = <span className={classes.bullet}>•</span>;
+  // const bull = <span className={classes.bullet}>•</span>;
 
   return (
     <Card className={classes.card}>
       <CardContent>
-          <h4>Lorum Ipsum</h4>
+        <h4>Lorum Ipsum</h4>
       </CardContent>
       <CardActions>
-      <Button variant="contained" color="primary" className={classes.button}>
+        <Button variant="contained" color="primary" className={classes.button}>
         Primary
-      </Button>
+        </Button>
       </CardActions>
     </Card>
   );

@@ -8,10 +8,10 @@ import Typography from '@material-ui/core/Typography';
 // import './Card.css';
 
 const red = {
-        width: '100px',
-        height: '100px',
-        backgroundColor: 'red'
-}
+  width: '100px',
+  height: '100px',
+  backgroundColor: 'red'
+};
 
 
 const useStyles = makeStyles({

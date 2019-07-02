@@ -4,9 +4,6 @@ import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
-import IconButton from '@material-ui/core/IconButton';
-import MenuIcon from '@material-ui/icons/Menu';
-import TextField from '@material-ui/core/TextField';
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -45,34 +42,34 @@ export default function Navs() {
       <AppBar position="static">
         <Toolbar>
           {/* <div className={classes.navBarLeft}> */}
-            <div className={classes.homeStyles}>
-              <Typography variant="h6" className={classes.title}>
+          <div className={classes.homeStyles}>
+            <Typography variant="h6" className={classes.title}>
                 Home
-          </Typography>
-            </div>
-            <div className={classes.messagesStyles}>
-              <Typography variant="h6" className={classes.title}>
+            </Typography>
+          </div>
+          <div className={classes.messagesStyles}>
+            <Typography variant="h6" className={classes.title}>
                 Messages
-          </Typography>
-            </div>
-            <div className={classes.notificatioonStyles}>
-              <Typography variant="h6" className={classes.title}>
+            </Typography>
+          </div>
+          <div className={classes.notificatioonStyles}>
+            <Typography variant="h6" className={classes.title}>
                 Notifications
-          </Typography>
-            </div>
+            </Typography>
+          </div>
           {/* </div> */}
 
 
           <Button color="inherit">Login</Button>
           {/* <Typography> */}
-            <div className={classes.searchBar}>
+          <div className={classes.searchBar}>
             <form>
               <label>
                 <input type="text" name="name" />
               </label>
               <Button color="inherit">Search</Button>
             </form>
-            </div>
+          </div>
           {/* </Typography> */}
         </Toolbar>
       </AppBar>
