@@ -50,7 +50,7 @@ export default function SimpleCard() {
 
     <Card className={classes.card}>
       <CardContent>
-        <div>
+        <div className="tickets">
           {masterTicketList.map((ticket, index) =>
             <Ticket names={ticket.names}
               location={ticket.location}
